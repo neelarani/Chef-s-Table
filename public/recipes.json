@@ -1,0 +1,102 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Spaghetti Bolognese",
+    "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKg4zT6nnXM8AM-2a0_CAYrMiPiA_XlNrNPzowLaR0f1l-5I&s",
+    "short_description": "A classic Italian pasta dish with rich tomato and meat sauce.",
+    "ingredients": [
+      "spaghetti",
+      "ground beef",
+      "tomato sauce",
+      "onion",
+      "garlic",
+      "olive oil",
+      "basil",
+      "parmesan cheese"
+    ],
+    "preparing_time": "30 minutes",
+    "calories": 450
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Chicken Caesar Salad",
+    "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-nTOA-vr5ijPNDWw-M1DqBVA0YqARWvtIBE7OHAp5unBTsJ0&s",
+    "short_description": "Crispy romaine lettuce with grilled chicken, croutons, and Caesar dressing.",
+    "ingredients": [
+      "romaine lettuce",
+      "grilled chicken",
+      "parmesan cheese",
+      "croutons",
+      "Caesar dressing"
+    ],
+    "preparing_time": "20 minutes",
+    "calories": 350
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegetable Stir-Fry",
+    "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRqds-D2_JK0-MVtHgPFJIapkni1iKtQPTWCqWjE4LM6D9YE&s",
+    "short_description": "A healthy mix of sautéed vegetables in a savory sauce.",
+    "ingredients": [
+      "broccoli",
+      "carrots",
+      "bell peppers",
+      "soy sauce",
+      "garlic",
+      "ginger",
+      "sesame oil"
+    ],
+    "preparing_time": "15 minutes",
+    "calories": 250
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Beef Tacos",
+    "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJMFqTGWre1MafJAG9Ievp9DaYf4zCD5f0u5OhWzGulSNduY&ss",
+    "short_description": "Spicy ground beef served in crispy taco shells with fresh toppings.",
+    "ingredients": [
+      "ground beef",
+      "taco shells",
+      "lettuce",
+      "tomato",
+      "cheddar cheese",
+      "sour cream",
+      "taco seasoning"
+    ],
+    "preparing_time": "25 minutes",
+    "calories": 500
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Margarita Pizza",
+    "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvoeVRWmlcfNWzblEH3seGBMCZKJ0hJVa0npCR-o-NjUAJL1gu&s",
+    "short_description": "A simple and delicious pizza topped with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "pizza dough",
+      "tomato sauce",
+      "fresh mozzarella",
+      "basil",
+      "olive oil"
+    ],
+    "preparing_time": "45 minutes",
+    "calories": 600
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Blueberry Pancakes",
+    "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThzbbuf_T4AcrtOQ8__Fp8Ft0At9WtU5rlHG4-apSnl25Zvcfv&s",
+    "short_description": "Fluffy pancakes filled with fresh blueberries, served with maple syrup.",
+    "ingredients": [
+      "flour",
+      "eggs",
+      "milk",
+      "blueberries",
+      "baking powder",
+      "sugar",
+      "butter",
+      "maple syrup"
+    ],
+    "preparing_time": "20 minutes",
+    "calories": 350
+  }
+]
