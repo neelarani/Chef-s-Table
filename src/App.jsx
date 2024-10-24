@@ -7,6 +7,9 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 const App = () => {
   const [recipeQueue, setRecipeQueue] = useState([]);
+  const [preparedRecipe, setPreparedRecipe] = useState([]);
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
 
   const addRecipeToQueue = recipe => {
     const isExists = recipeQueue.find(
@@ -17,6 +20,20 @@ const App = () => {
     } else {
       alert('Recipe Already Exists in the queue');
     }
+  };
+
+  const handleRemove = id => {
+    // find which recipe to remove
+    const deletedRecipe = recipeQueue.find(recipe => recipe.recipe_id === id);
+    // remove from want to cook table
+    const updatedQueue = recipeQueue.filter(recipe => recipe.recipe_id !== id);
+    setRecipeQueue(updatedQueue);
+    setPreparedRecipe([...preparedRecipe, deletedRecipe]);
+  };
+
+  const calculateTimeAndCalories = (time, calorie) => {
+    setTotalTime(totalTime + time);
+    setTotalCalories(totalCalories + calorie);
   };
 
   return (
@@ -32,7 +49,14 @@ const App = () => {
         {/* Cards section */}
         <Recipes addRecipeToQueue={addRecipeToQueue}></Recipes>
         {/* Sidebar  */}
-        <Sidebar recipeQueue={recipeQueue}></Sidebar>
+        <Sidebar
+          handleRemove={handleRemove}
+          recipeQueue={recipeQueue}
+          preparedRecipe={preparedRecipe}
+          calculateTimeAndCalories={calculateTimeAndCalories}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
+        ></Sidebar>
       </section>
     </div>
   );
